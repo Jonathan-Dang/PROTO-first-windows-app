@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/05/29 19:17:31.103,=F:\cpp-Builder-Repo\Unit1.cpp</Transaction>
+    <Transaction>2023/05/29 19:17:31.391,=F:\cpp-Builder-Repo\Project1PCH1.h</Transaction>
+    <Transaction>2023/05/29 19:25:10.830,F:\cpp-Builder-Repo\MyFirstWindowsApp\PROTO-first-windows-app\Unit1.h=F:\cpp-Builder-Repo\Unit1.h</Transaction>
+    <Transaction>2023/05/29 19:25:10.830,F:\cpp-Builder-Repo\MyFirstWindowsApp\PROTO-first-windows-app\Unit1.fmx=F:\cpp-Builder-Repo\Unit1.fmx</Transaction>
+    <Transaction>2023/05/29 19:25:10.830,F:\cpp-Builder-Repo\MyFirstWindowsApp\PROTO-first-windows-app\Unit1.cpp=F:\cpp-Builder-Repo\Unit1.cpp</Transaction>
+    <Transaction>2023/05/29 19:25:10.845,F:\cpp-Builder-Repo\MyFirstWindowsApp\PROTO-first-windows-app\Project1PCH1.h=F:\cpp-Builder-Repo\Project1PCH1.h</Transaction>
+    <Transaction>2023/05/29 19:25:10.863,F:\cpp-Builder-Repo\MyFirstWindowsApp\PROTO-first-windows-app\Project1.cbproj=F:\cpp-Builder-Repo\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

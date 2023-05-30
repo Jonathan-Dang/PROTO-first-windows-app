@@ -1,0 +1,54 @@
+object TaskWindow: TTaskWindow
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 441
+  ClientWidth = 370
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Enter Task:'
+    TabOrder = 0
+  end
+  object taskInputField: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 32.000000000000000000
+    Position.Y = 49.000000000000000000
+    Size.Width = 184.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object addTask: TButton
+    Position.X = 224.000000000000000000
+    Position.Y = 49.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Submit'
+    OnClick = addTaskClick
+  end
+  object TasksListBox: TListBox
+    Position.X = 32.000000000000000000
+    Position.Y = 89.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 321.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    OnItemClick = TasksListBoxItemClick
+    Viewport.Width = 301.000000000000000000
+    Viewport.Height = 317.000000000000000000
+  end
+end
